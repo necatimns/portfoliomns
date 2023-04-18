@@ -1,0 +1,518 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Necati HAN - Développeur WEB</title>
+    <meta name="description" content="Portofolio de Necati HAN - Développeur freelance indépendant">
+</head>
+
+<body>
+    <!--
+    header
+        logo
+        meni
+        socials
+        burger
+    
+    Hero
+        left
+        right
+
+    About
+        left
+        right
+
+    Services
+    Skills
+    Portofolio
+    Contact
+
+    Footer
+-->
+
+    <header class="header">
+        <div class="container d-flex">
+            <div class="logo">
+                Necati HAN
+            </div>
+            <nav class="navbar">
+                <ul class="menu list-unstyled">
+                    <li><a href="#hero">Accueil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="right">
+                <ul class="socials list-unstyled">
+                    <li><a href="https://www.facebook.com/" target="_blank"><svg class="icon facebook"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                            </svg></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><svg class="icon linkedin"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                            </svg></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><svg class="icon twitter"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                            </svg></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><svg class="icon instagram"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z" />
+                            </svg></a></li>
+                </ul>
+                <button class="burger">
+                    <span class="bar">
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="grid">
+                <div class="hero__item left">
+                    <span>Développeur Web Freelance</span>
+                    <h1 class="title">Hello, je suis Necati HAN de Metz</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit asperiores enim
+                        laboriosam ad. Nobis eligendi, repudiandae facilis distinctio voluptatum obcaecati
+                        necessitatibus dolores, accusantium numquam alias, et nesciunt asperiores debitis a.</p>
+                </div>
+                <div class="hero__item right">
+                    <div class="hero__avatar">
+                        <img src="images/Cartoonify.svg" alt="Avatar Necati HAN - Développeur web freelance">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <img src="images/1517477225402.jpeg" alt="Necati HAN - Développeur web freelance">
+                </div>
+                <div class="grid__item">
+                    <h2 class="section-title">A propos</h2>
+                    <h3>Qui suis-je</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <strong>Mot ou phrase
+                            importante</strong> quos fuga, deleniti officiis
+                        accusamus iusto earum provident ex ea! Mollitia nesciunt nulla voluptas rerum ullam minus
+                        veritatis fugit quas culpa?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <strong>Mot ou phrase
+                            importante</strong> quos fuga, deleniti officiis
+                        accusamus iusto earum provident ex ea! Mollitia nesciunt nulla voluptas rerum ullam minus
+                        veritatis fugit quas culpa?</p>
+                    <ul>
+                        <li>Liste</li>
+                        <li>Liste</li>
+                        <li>Liste</li>
+                        <li>Liste</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quisquam quo. Eligendi iure
+                    aperiam ratione molestias quia, beatae iusto, mollitia tenetur minima pariatur voluptas animi dolore
+                    hic cumque quas quod?</p>
+            </div>
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M297.2 248.9C311.6 228.3 320 203.2 320 176c0-70.7-57.3-128-128-128S64 105.3 64 176c0 27.2 8.4 52.3 22.8 72.9c3.7 5.3 8.1 11.3 12.8 17.7l0 0c12.9 17.7 28.3 38.9 39.8 59.8c10.4 19 15.7 38.8 18.3 57.5H109c-2.2-12-5.9-23.7-11.8-34.5c-9.9-18-22.2-34.9-34.5-51.8l0 0 0 0c-5.2-7.1-10.4-14.2-15.4-21.4C27.6 247.9 16 213.3 16 176C16 78.8 94.8 0 192 0s176 78.8 176 176c0 37.3-11.6 71.9-31.4 100.3c-5 7.2-10.2 14.3-15.4 21.4l0 0 0 0c-12.3 16.8-24.6 33.7-34.5 51.8c-5.9 10.8-9.6 22.5-11.8 34.5H226.4c2.6-18.7 7.9-38.6 18.3-57.5c11.5-20.9 26.9-42.1 39.8-59.8l0 0 0 0 0 0c4.7-6.4 9-12.4 12.7-17.7zM192 128c-26.5 0-48 21.5-48 48c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-44.2 35.8-80 80-80c8.8 0 16 7.2 16 16s-7.2 16-16 16zm0 384c-44.2 0-80-35.8-80-80V416H272v16c0 44.2-35.8 80-80 80z" />
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>GESTION DE PROJET WEB</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero culpa quis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z" />
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>INTÉGRATION WEB</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero culpa quis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>DEVELOPPEMENTS SPÉCIFIQUES</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero culpa quis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM337 209L209 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L303 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>RÉFÉRENCEMENT NATUREL</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero culpa quis
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid__item">
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>CONCEPTION GRAPHIQUE & WEBDESIGN</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero culpa quis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M142.9 142.9c62.2-62.2 162.7-62.5 225.3-1L327 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8H463.5c0 0 0 0 0 0H472c13.3 0 24-10.7 24-24V72c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L413.4 96.6c-87.6-86.5-228.7-86.2-315.8 1C73.2 122 55.6 150.7 44.8 181.4c-5.9 16.7 2.9 34.9 19.5 40.8s34.9-2.9 40.8-19.5c7.7-21.8 20.2-42.3 37.8-59.8zM16 312v7.6 .7V440c0 9.7 5.8 18.5 14.8 22.2s19.3 1.7 26.2-5.2l41.6-41.6c87.6 86.5 228.7 86.2 315.8-1c24.4-24.4 42.1-53.1 52.9-83.7c5.9-16.7-2.9-34.9-19.5-40.8s-34.9 2.9-40.8 19.5c-7.7 21.8-20.2 42.3-37.8 59.8c-62.2 62.2-162.7 62.5-225.3 1L185 329c6.9-6.9 8.9-17.2 5.2-26.2s-12.5-14.8-22.2-14.8H48.4h-.7H40c-13.3 0-24 10.7-24 24z" />
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>DYNAMISME DES PAGES</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero culpa quis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>INTERFACE D'ADMINISTRATION</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero culpa quis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M80 0C44.7 0 16 28.7 16 64V448c0 35.3 28.7 64 64 64H304c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>RESPONSIVE DESIGN</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero culpa quis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes compétences</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quisquam quo. Eligendi iure
+                    aperiam ratione molestias quia, beatae iusto, mollitia tenetur minima pariatur voluptas animi dolore
+                    hic cumque quas quod?</p>
+            </div>
+            <div class="grid">
+                <div class="grid__item">
+                    <h3>Domaines de compétences</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <h3>compétences</h3>
+                            <p>Description de la compétence</p>
+                        </li>
+                        <li>
+                            <h3>compétences</h3>
+                            <p>Description de la compétence</p>
+                        </li>
+                        <li>
+                            <h3>compétences</h3>
+                            <p>Description de la compétence</p>
+                        </li>
+                        <li>
+                            <h3>compétences</h3>
+                            <p>Description de la compétence</p>
+                        </li>
+                        <li>
+                            <h3>compétences</h3>
+                            <p>Description de la compétence</p>
+                        </li>
+                        <li>
+                            <h3>compétences</h3>
+                            <p>Description de la compétence</p>
+                        </li>
+                        <li>
+                            <h3>compétences</h3>
+                            <p>Description de la compétence</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__item">
+                    <h3>Compétences en développement</h3>
+                    <div class="progressbar">
+                        <div class="bar">HTMl</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar">CSS</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar">PHP</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar">JAVASCRIPT</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar">REACT</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar">NODE</div>
+                    </div>
+
+                    <h3>Compétences en conception graphique</h3>
+                    <div class="progressbar">
+                        <div class="bar">PHOTOSHOP</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar">ILLUSTRATOR</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar">FIGMA</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar">AFTER EFFECT</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="portofolio" class="portofolio">
+
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portofolio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quisquam quo. Eligendi iure
+                    aperiam ratione molestias quia, beatae iusto, mollitia tenetur minima pariatur voluptas animi dolore
+                    hic cumque quas quod?</p>
+            </div>
+            <ul class="grid portofolio-filters list-unstyled">
+                <li class="grid__item">
+                    <a href="#">Tous les projets</a>
+                </li>
+                <li class="grid__item">
+                    <a href="#">Développement web</a>
+                </li>
+                <li class="grid__item">
+                    <a href="#">Refonte Graphique</a>
+                </li>
+                <li class="grid__item">
+                    <a href="#">Applications</a>
+                </li>
+            </ul>
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=1" alt="" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="car__title">TITRE DU PROJET</h3>
+                            <p class="category">DÉVELOPPEMENT WEB</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="" id="">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=2" alt="" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="car__title">TITRE DU PROJET</h3>
+                            <p class="category">REFONTE GRAPHIQUE</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="" id="">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=3" alt="" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="car__title">TITRE DU PROJET</h3>
+                            <p class="category">APPLICATION</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="" id="">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=4" alt="" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="car__title">TITRE DU PROJET</h3>
+                            <p class="category">DÉVELOPPEMENT WEB</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="" id="">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=5" alt="" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="car__title">TITRE DU PROJET</h3>
+                            <p class="category">REFONTE</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="" id="">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=6" alt="" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="car__title">TITRE DU PROJET</h3>
+                            <p class="category">APPLICATION</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="" id="">+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quisquam quo. Eligendi iure
+                    aperiam ratione molestias quia, beatae iusto, mollitia tenetur minima pariatur voluptas animi dolore
+                    hic cumque quas quod?</p>
+            </div>
+            <form action="" class="form">
+                <label for="firstname">
+                    <input type="text" name="firstnale" id="firstname" placeholder="Nom">
+                </label>
+                <label for="lastname">
+                    <input type="text" name="lastname" id="lastname" placeholder="Prénom">
+                </label>
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </label>
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+                <input type="submit" class="btn" value="Envoyer">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <p>Necati HAN</p>
+                </div>
+                <div class="grid__item">
+                    <ul class="socials list-unstyled">
+                        <li><a href="https://www.facebook.com/" target="_blank"><svg class="icon facebook"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                                </svg></a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank"><svg class="icon linkedin"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                                </svg></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><svg class="icon twitter"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                                </svg></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><svg class="icon instagram"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z" />
+                                </svg></a></li>
+                    </ul>
+                </div>
+                <div class="grid__item">
+                    <p>Copyright – tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
